@@ -5,7 +5,7 @@ pipeline {
         JAVA_HOME = "C:\\Program Files\\Java\\jdk-17"
         PATH = "${JAVA_HOME}\\bin;${env.PATH}"
     }
-
+// these are stages -- this line used to test the automation(ngrok)
     stages {
 
         stage('Verify Environment') {
